@@ -43,14 +43,14 @@ app.get('/register', learning, (req, resp)=>{
     )
 })
 
-
+//this does not log back to console the request body
 app.post('/confirmation', (req, resp)=>{
     console.log('...........................confirmation..................................................')
     console.log(req.body)
 
 
 })
-
+//this does not log back to console the request body
 app.post('/validation', (req, resp)=>{
     console.log('...........................validation...................................................')
     console.log(req.body)
